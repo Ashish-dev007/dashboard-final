@@ -28,11 +28,11 @@ st.set_page_config(
 )
 
 # ── Imports (after page config) ───────────────────────────────────────────────
-from ui.styles        import inject_css, bb_header, status_bar
-from ui.input_panel   import render_sidebar
-from ui.tab1_premiums import render_tab_premiums
-from ui.tab2_structures import render_tab_structures
-from ui.tab3_trade    import render_tab_trade
+from styles import inject_css, bb_header, status_bar
+from input_panel import render_sidebar
+from tab1_premiums import render_tab_premiums
+from tab2_structures import render_tab_structures
+from tab3_trade import render_tab_trade
 from core.case_manager import CaseManager
 from core.date_utils   import (
     generate_sr1_contracts,
